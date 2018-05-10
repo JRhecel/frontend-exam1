@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+           <title>Frontend exam 1</title>
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+           <meta name="description" content="">
+           <meta name="author" content="">
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-*.min.js"></script>
+           <link rel="stylesheet" href="assets/css/landing.css" />
+       </head>
+   <body>	 
+       <div class="landing-wrapper">
+            <header class="container-fluid">
+               <div class="container">
+                  <a href="#" class="logo-link"> 
+                     <img src="assets/img/head.png" class="img-fluid" />
+                   </a>
+               </div>
+            </header>
+            <div class="content container-fluid">
+               <div class="container">
+                  <h1>Find a Lawyer for your Legal Issue</h1>
+                  <h2>Fast, Free and Confidential</h2>
+                  <div class="row">
+                     <div class="col col-7">
+                        <form>
+                          <div class="form-group">
+                            <label for="city">Enter Zip Code or City:</label>
+                            <span class="count">1</span>
+                            <input type="email" class="form-control placeholder circle" id="city" placeholder="Does not have to be where you live">
+                          </div>
+                          <div class="form-group">
+                            <label for="category">Choose a category:</label>
+                            <span class="count">2</span>
+                            <select class="form-control circle" id="category">
+                              <option class="placeholder" value="-1">Click to choose a legal category</option>
+                              <option value="family">Family</option>
+                              <option>Criminal Defense</option>
+                              <option>Business</option>
+                              <option>Personal Injury</option>
+                              <option>Bankruptcy & Finances</option>
+                              <option>Products & Services</option>
+                              <option>Employment</option>
+                              <option>Real Estate</option>
+                              <option>Immigration</option>
+                              <option>Wills, Trusts & Estates</option>
+                              <option>Government</option>
+                              <option>Intellectual Property</option> 
+                            </select>
+                          </div>
+                          <div class="note text-center">
+                              <p class="text">Can't find your category? <a href="#" class="click-link" data-toggle="modal" data-target="#other-category">Click here.</a></p>
+                          </div>
+                        </form>
+                     </div>
+                     <div class="col col-5">
+                        <h3>Clients review LegalMatch lawyers</h3>
+                        <div class="list">
+                           <div class="row li-wrap">
+                              <div class="col-4">
+                                 <div class="img-wrap text-center">
+                                    <img src="assets/img/mitchell.png" class="img-list" />
+                                    <p class="font-weight-bold">Mitchell M.</p>
+                                    <p>Cherry Hill, NJ</p>
+                                 </div>
+                              </div>
+                              <div class="col-8">
+                                 <p class="list-label">Family Law</p>
+                                 <span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span>
+                                 <p class="desc">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+                                 <a class="review" href="#" data-toggle="modal" data-target="#client-review">Read Review <img src="assets/img/book.png" /></a>
+                              </div>
+                           </div>
+                           <div class="row li-wrap middle">
+                              <div class="col-4">
+                                 <div class="img-wrap text-center">
+                                    <img src="assets/img/joel.png" class="img-list" />
+                                    <p class="font-weight-bold">Joel C.</p>
+                                    <p>Little Rock, AK</p>
+                                 </div>
+                              </div>
+                              <div class="col-8">
+                                 <p class="list-label">Job & Employment Law</p>
+                                 <span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span>
+                                 <p class="desc">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+                                 <a class="review" href="#" data-toggle="modal" data-target="#client-review">Read Review <img src="assets/img/book.png" /></a>
+                              </div>
+                           </div>
+                           <div class="row li-wrap">
+                              <div class="col-4">
+                                 <div class="img-wrap text-center">
+                                    <img src="assets/img/brigida.png" class="img-list" />
+                                    <p class="font-weight-bold">Brigida R.</p>
+                                    <p>Dallas, TX</p>
+                                 </div>
+                              </div>
+                              <div class="col-8">
+                                 <p class="list-label">Family Law</p>
+                                 <span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span>
+                                 <p class="desc">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+                                 <a class="review" href="#" data-toggle="modal" data-target="#client-review">Read Review <img src="assets/img/book.png" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <footer class="container-fluid">
+               <div class="container footer">
+                  <div class="row">
+                     <div class="col-3">
+                        <img class="logo-foot" src="assets/img/logofoot.png" />
+                     </div>
+                     <div class="col-6">
+                        <div class="text-center">
+                           <p class="top-foot">User Agreement <span>&bull;</span> Privacy Policy <span>&bull;</span> Site Map</p>
+                           <p class="copy">Copyright 199-2016 LegalMatch. All rights reserved. LegalMatch&reg;, <span>the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending.</span></p>
+                        </div>
+                     </div>
+                     <div class="col-3">
+                     <div class="img-foot">
+                        <img class="truste" src="assets/img/truste.png" />
+                        <img class="bbb" src="assets/img/bbb.png" />
+                     </div>
+                     </div>
+                  </div>
+                </div>
+            </footer>
+       </div>
+         <div class="modal fade" id="client-review" tabindex="-1" role="dialog" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title">Client Reviews</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 <div>
+                     <div class="img-wrap">
+                        <img src="assets/img/brigida.png" class="img-list" />
+                        <p class="font-weight-bold">Brigida R.</p>
+                        <p>Dallas, TX</p>
+                     </div>
+                     <p>Rating (29 users) <span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></p>
+                 </div>
+                 <div class="middle-content">
+                     <ul>
+                        <li class="font-weight-bold">Overall <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Responded in a timely ;manner <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Answered questions clearly <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Understood needs <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Gave complete and clear information <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Knowledgeable in legal area <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Good value for money <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Would hire again <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                        <li>Would recommend to friend <span class="stars"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></span></li>
+                     </ul>
+                 </div>
+                 <div>
+                     <p class="font-weight-bold"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span> by Dexter Marchal, 06/10/2016</p>
+                     <p>Deb did a great job. Got my bench warrant set aside ... was sure I was going to jail ... phew. Judge seemed to respect her and I got what I </p>
+                 </div>
+               </div>
+               <div class="modal-footer">
+                 <a class="close" data-dismiss="modal">Close</a>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="modal fade" id="other-category" tabindex="-1" role="dialog" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title">Other Categories <span>Choose the category that best fits your case</span></h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                  <ul class="other-ul">
+                     <li class="other-list">
+                        <a href="#">Abuse (Child, Domestic, Sexual)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Automobile ( DUI, Crimes, Speeding )</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Automobiles ( Accidents, Insurance )</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Banking ( Business, Consumer )</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Bars & Restaurants</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Business Formation & Dissolution</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Children (Adoption, Custody, Support)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Class Actions (Bad Drugs, Products)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Commercial Law and Contracts</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Commercial Real Estate</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Constitutional Law</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Construction (Disputes, Liens)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Categories Item Here</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Loremipsum Dolorsitamet,</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Lonsectetur Scingelit  (Baseererkj, Mereit)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Miam Euvelit</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Mempor Auctor (Estiarma, Toeruslej)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Nisultricies Dictumest.</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Ntfring Sodalelit (Aeeticl Restoustoust)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Ntvarius Lectus & Congue</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Pellentesque</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Rigula Aliquamattis (Nestusotu, Wewreist)</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Set Tigulempor</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Sehicula Sedsitamet</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Seque Nesturre</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Tollis Gaurissed</a>
+                     </il>
+                     <li class="other-list">
+                        <a href="#">Tempor Auctor (Estiarma, Toeruslej)</a>
+                     </il>
+                  </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="assets/js/landing.js"></script>
+   </body>
+</html>
